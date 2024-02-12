@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.47544505.css","mappings":"AAAA,EACC,qBAAsB,CACtB,QAAW,CACX,SACD,CAEA,qBACC,yDACD","sources":["style.css"],"sourcesContent":["* {\r\n\tbox-sizing: border-box;\r\n\tmargin: 0px;\r\n\tpadding: 0px;\r\n}\r\n\r\n.user-grid-container {\r\n\tgrid-template-columns: repeat(auto-fill, minmax(300px, 1fr));\r\n}"],"names":[],"sourceRoot":""}
