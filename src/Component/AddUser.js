@@ -44,7 +44,7 @@ export default function AddUser() {
   const { fname, lname, email, phone, address } = data;
   return (
     <div className='container border mt-5'>
-      <form className='w-50 m-auto mt-3' onSubmit={handleSubmit}>
+      <form className='w-75 m-auto mt-3' onSubmit={handleSubmit}>
         <div className='row mb-3 '>
           <div className='col-6'>
             <label htmlFor='fname' className='form-label'>First Name</label>
@@ -77,7 +77,7 @@ export default function AddUser() {
         </div>
         <div className='row mb-3'>
           <div className='col-12 text-center'>
-            <button className='btn btn-primary w-25' onClick={handleAddUser}>Add user</button>
+            <button className='btn btn-primary' onClick={handleAddUser}>Add user</button>
           </div>
         </div>
       </form>
